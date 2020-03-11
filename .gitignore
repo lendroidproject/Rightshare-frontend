@@ -1,0 +1,9 @@
+/out
+*.DS_Store
+/node_modules
+/build
+/coverage
+coverage.json
+__pycache__/
+*.pyc
+lib/
