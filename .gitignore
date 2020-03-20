@@ -7,3 +7,5 @@ coverage.json
 __pycache__/
 *.pyc
 lib/
+templates/
+setup.cfg

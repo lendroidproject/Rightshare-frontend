@@ -13,8 +13,8 @@ app.config['DEBUG'] = True
 @app.route('/')
 def landing():
     """ Render the Landing page."""
-    return 'Hello World Dot', 200
-    # return render_template('index.html')
+    # return 'Hello World Dot', 200
+    return render_template('index.html')
 
 
 @app.errorhandler(404)

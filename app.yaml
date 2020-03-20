@@ -18,9 +18,22 @@ handlers:
   secure: always
   static_dir: templates/static
 
+- url: /next/static
+  secure: always
+  static_dir: templates/_next/static
+
+- url: /_next/static
+  secure: always
+  static_dir: templates/_next/static
+
 - url: /assets
   secure: always
   static_dir: assets
+
+- url: /(.*\.(png|jpg|svg))$
+  secure: always
+  static_files: templates/\1
+  upload: templates/.*\.(png|jpg|svg)$
 
 - url: .*
   secure: always
