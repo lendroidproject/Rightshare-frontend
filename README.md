@@ -1,5 +1,5 @@
-# leaseNFT
-Lease NFT
+# Rightshare-frontent
+Rightshare-frontend
 
 ### Framework
 
