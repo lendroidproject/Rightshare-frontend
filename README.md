@@ -1,4 +1,4 @@
-# Rightshare-frontent
+# Rightshare-frontend
 Rightshare-frontend
 
 ### Framework
